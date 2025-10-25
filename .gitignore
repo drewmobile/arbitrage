@@ -195,3 +195,16 @@ PAAPICredentials.csv
 # Lambda layers
 lambda-layer/
 lambda-layer-v2/
+
+# Test data and sample files
+test-data/
+*.csv
+test-*.html
+test-*.json
+patch.json
+
+# Development files
+csv_processor.py
+csv_processor_async.py
+csv_uploader.py
+docs/
