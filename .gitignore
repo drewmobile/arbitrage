@@ -1,0 +1,197 @@
+# Dependencies
+node_modules/
+*/node_modules/
+venv/
+*/venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Python packages installed locally
+boto3/
+botocore/
+certifi/
+charset_normalizer/
+dateutil/
+idna/
+jmespath/
+multipart/
+psycopg2/
+python_dateutil-2.9.0.post0.dist-info/
+python_multipart-0.0.6.dist-info/
+requests/
+s3transfer/
+six.py
+urllib3/
+xmltodict.py
+*.dist-info/
+bin/
+
+# Build outputs
+build/
+dist/
+*.zip
+*.tar.gz
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+*.tfvars
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+*.log
+
+# Database
+*.db
+*.sqlite
+
+# AWS
+.aws/
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# React build
+frontend/build/
+frontend/dist/
+
+# Lambda deployment packages
+lambda/*.zip
+infrastructure/*.zip
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Sensitive files
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Test files
+test-results/
+coverage/
+junit.xml
+test-*.html
+test-*.json
+patch.json
+
+# Package manager lock files (keep these)
+# package-lock.json
+# yarn.lock
+PAAPICredentials.csv
+PAAPICredentials.csv
+*.csv
+
+# Lambda layers
+lambda-layer/
+lambda-layer-v2/
